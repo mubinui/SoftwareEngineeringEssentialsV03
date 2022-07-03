@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c6ad55-da61-46a4-a1f5-992f247ca1eb" name="Changes" comment="Inner Class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="99c6ad55-da61-46a4-a1f5-992f247ca1eb" name="Changes" comment="Abnormal Cases">
+      <change beforePath="$PROJECT_DIR$/src/Exception/Example02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/Example02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +133,7 @@
       <workItem from="1656703889854" duration="623000" />
       <workItem from="1656751390128" duration="3756000" />
       <workItem from="1656780604472" duration="4395000" />
-      <workItem from="1656839135281" duration="5076000" />
+      <workItem from="1656839135281" duration="5751000" />
     </task>
     <task id="LOCAL-00001" summary="Producer Consumer">
       <created>1656755004620</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656788388479</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Abnormal Cases">
+      <created>1656846888147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656846888147</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Producer Consumer" />
     <MESSAGE value="Inner Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inner Class" />
+    <MESSAGE value="Abnormal Cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abnormal Cases" />
   </component>
 </project>
