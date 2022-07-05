@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c6ad55-da61-46a4-a1f5-992f247ca1eb" name="Changes" comment="Abnormal Cases">
-      <change beforePath="$PROJECT_DIR$/src/Exception/Example02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/Example02.java" afterDir="false" />
+    <list default="true" id="99c6ad55-da61-46a4-a1f5-992f247ca1eb" name="Changes" comment="Exceptions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +30,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Example02">
-    <configuration name="Example01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.Example01" />
+}</component>
+  <component name="RunManager" selected="Application.BitwiseOperations">
+    <configuration name="BitwiseOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitwiseOperation.BitwiseOperations" />
       <module name="SoftwareEngineeringEssentialsV03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="BitwiseOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorAnalysis.Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConstructorAnalysis.Tester" />
+      <module name="SoftwareEngineeringEssentialsV03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConstructorAnalysis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,25 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.Example03" />
+    <configuration name="RuntimePolymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.RuntimePolymorphism" />
       <module name="SoftwareEngineeringEssentialsV03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InnerClass.Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InnerClass.Tester" />
-      <module name="SoftwareEngineeringEssentialsV03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InnerClass.*" />
+          <option name="PATTERN" value="Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,11 +92,11 @@
       </method>
     </configuration>
     <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.Tester" />
+      <option name="MAIN_CLASS_NAME" value="Casting.Tester" />
       <module name="SoftwareEngineeringEssentialsV03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProducerConsumer.*" />
+          <option name="PATTERN" value="Casting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example02" />
-        <item itemvalue="Application.Example03" />
-        <item itemvalue="Application.Example01" />
-        <item itemvalue="Application.InnerClass.Tester" />
+        <item itemvalue="Application.BitwiseOperations" />
         <item itemvalue="Application.Tester" />
+        <item itemvalue="Application.RuntimePolymorphism" />
+        <item itemvalue="Application.ConstructorAnalysis.Tester" />
+        <item itemvalue="Application.Example02" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,9 @@
       <workItem from="1656703889854" duration="623000" />
       <workItem from="1656751390128" duration="3756000" />
       <workItem from="1656780604472" duration="4395000" />
-      <workItem from="1656839135281" duration="5751000" />
+      <workItem from="1656839135281" duration="6347000" />
+      <workItem from="1657007140410" duration="309000" />
+      <workItem from="1657011829454" duration="4501000" />
     </task>
     <task id="LOCAL-00001" summary="Producer Consumer">
       <created>1656755004620</created>
@@ -163,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656846888147</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exceptions">
+      <created>1656847560021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656847560021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +193,7 @@
     <MESSAGE value="Producer Consumer" />
     <MESSAGE value="Inner Class" />
     <MESSAGE value="Abnormal Cases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abnormal Cases" />
+    <MESSAGE value="Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions" />
   </component>
 </project>
