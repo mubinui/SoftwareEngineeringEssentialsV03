@@ -5,7 +5,7 @@ public class PrivateConstructor {
     String id;
     String address;
 
-    private PrivateConstructor(String name, String id, String address) {
+    protected PrivateConstructor(String name, String id, String address) {
         this.name = name;
         this.id = id;
         this.address = address;
