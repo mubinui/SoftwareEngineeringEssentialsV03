@@ -1,0 +1,24 @@
+We can give extra information or metadata to java compiler using annotation .
+
+@interface MyAnnotation {
+    //marker annotation when we pass not value
+}
+
+@interface MyAnnotation {
+    int myValue() default 0;
+    //single valued annotation
+
+}
+
+We use @Target annotation to make sure where we want to use our annotation
+    1. @Target(ElementType.TYPE) -> The annotation can be used in class , interface and Enum
+    2. @Target(ElementType.METHOD)-> We will be able to use this annotation to the class
+    3. @Target({ElementType.TYPE, ElementType.METHOD})-> Both class and interface
+
+We use @Retention to define when to use the annotation .
+    1. @Retention(RetentionPolicy.RUNTIME)-> java compiler and JVM
+
+
+
+
+
