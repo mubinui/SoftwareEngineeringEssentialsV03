@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99c6ad55-da61-46a4-a1f5-992f247ca1eb" name="Changes" comment="Custom Annotations">
+    <list default="true" id="99c6ad55-da61-46a4-a1f5-992f247ca1eb" name="Changes" comment="Amazing maze with Interfaces.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitwiseOperation/BitwiseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitwiseOperation/BitwiseOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RunManager" selected="Application.StringReverse">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interfaces.A" />
       <module name="SoftwareEngineeringEssentialsV03" />
@@ -66,6 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BitwiseOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitwiseOperation.BitwiseOperations" />
+      <module name="SoftwareEngineeringEssentialsV03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BitwiseOperation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterfaceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interfaces.InterfaceTester" />
       <module name="SoftwareEngineeringEssentialsV03" />
@@ -79,25 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TherapTest.Problem04" />
+    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringReverse.StringReverse" />
       <module name="SoftwareEngineeringEssentialsV03" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TherapTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threading.ThreadTester" />
-      <module name="SoftwareEngineeringEssentialsV03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Threading.*" />
+          <option name="PATTERN" value="StringReverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringReverse" />
+        <item itemvalue="Application.BitwiseOperations" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.InterfaceTester" />
         <item itemvalue="Application.AnnoTester" />
-        <item itemvalue="Application.ThreadTester" />
-        <item itemvalue="Application.Problem04" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +145,13 @@
       <workItem from="1657827780756" duration="3000" />
       <workItem from="1657971626287" duration="5000" />
       <workItem from="1658132516172" duration="2034000" />
-      <workItem from="1658135016677" duration="2741000" />
+      <workItem from="1658135016677" duration="3001000" />
+      <workItem from="1658305157505" duration="245000" />
+      <workItem from="1658306815731" duration="45000" />
+      <workItem from="1658310418687" duration="3066000" />
+      <workItem from="1658349198577" duration="8000" />
+      <workItem from="1658349363386" duration="1045000" />
+      <workItem from="1658351294099" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="Producer Consumer">
       <created>1656755004620</created>
@@ -202,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658134526401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Amazing maze with Interfaces.">
+      <created>1658138055539</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658138055540</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +241,7 @@
     <MESSAGE value="Practice" />
     <MESSAGE value="Therap Answers" />
     <MESSAGE value="Custom Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Custom Annotations" />
+    <MESSAGE value="Amazing maze with Interfaces." />
+    <option name="LAST_COMMIT_MESSAGE" value="Amazing maze with Interfaces." />
   </component>
 </project>

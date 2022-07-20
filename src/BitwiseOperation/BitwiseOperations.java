@@ -13,7 +13,7 @@ public class BitwiseOperations {
         System.out.println("Bitwise or ->"+z);
         int a1 = 10;
         System.out.println(a1>>1); // right shift division
-        System.out.println(a1<<1); // left shift multiplication
+        System.out.println(a1<<2); // left shift multiplication
 
     }
 }
